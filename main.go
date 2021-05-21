@@ -15,7 +15,7 @@ func main() {
 	fmt.Print("Integer: ")
 	fmt.Scanln(&userNumber)
 
-	if (userNumber < 0) {
+	if userNumber < 0 {
 		print("Your integer is a negative number.")
 	} else {
 		print("Your integer is a positive number.")
